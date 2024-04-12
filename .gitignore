@@ -161,3 +161,10 @@ cython_debug/
 
 PS3_Train
 .ipynb_checkpoints
+train
+labels1
+labels_1
+labels_2
+labels_3
+labels_4
+model
