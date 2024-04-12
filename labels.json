@@ -1,0 +1,64 @@
+[{
+    "name": "background-tissue",
+    "color": [
+      0,
+      0,
+      0
+    ],
+    "classid": 0
+  },
+  {
+    "name": "instrument",
+    "color": [
+      0,
+      0,
+      255
+    ],
+    "classid": 1
+  },
+  {
+    "name": "thread",
+    "color": [
+      187,
+      155,
+      25
+    ],
+    "classid": 2
+  },
+  {
+    "name": "clamps",
+    "color": [
+      0,
+      255,
+      125
+    ],
+    "classid": 3
+  },
+  {
+    "name": "suturing-needle",
+    "color": [
+      255,
+      255,
+      125
+    ],
+    "classid": 4
+  },
+  {
+    "name": "suction-instrument",
+    "color": [
+      123,
+      15,
+      175
+    ],
+    "classid": 5
+  },
+   {
+    "name": "ultrasound-probe",
+    "color": [
+      12,
+      255,
+      141
+    ],
+    "classid": 6
+  }
+]
