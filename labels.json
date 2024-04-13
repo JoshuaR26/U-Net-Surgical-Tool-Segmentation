@@ -5,7 +5,10 @@
       0,
       0
     ],
-    "classid": 0
+    "classid": 0,
+    "epochs": 0,
+    "batchsize": 0,
+    "lossfunc": "null"
   },
   {
     "name": "instrument",
@@ -14,7 +17,11 @@
       0,
       255
     ],
-    "classid": 1
+    "classid": 1,
+     "epochs": 10,
+    "batchsize": 3,
+    "lossfunc": "jaccard_index"
+
   },
   {
     "name": "thread",
@@ -23,7 +30,10 @@
       155,
       25
     ],
-    "classid": 2
+    "classid": 2,
+    "epochs": 15,
+    "batchsize": 3,
+    "lossfunc": "dice_loss"
   },
   {
     "name": "clamps",
@@ -32,7 +42,10 @@
       255,
       125
     ],
-    "classid": 3
+    "classid": 3,
+    "epochs": 10,
+    "batchsize": 3,
+    "lossfunc": "jaccard_index"
   },
   {
     "name": "suturing-needle",
@@ -41,7 +54,10 @@
       255,
       125
     ],
-    "classid": 4
+    "classid": 4,
+    "epochs": 10,
+    "batchsize": 3,
+    "lossfunc": "jaccard_index"
   },
   {
     "name": "suction-instrument",
@@ -50,7 +66,10 @@
       15,
       175
     ],
-    "classid": 5
+    "classid": 5,
+    "epochs": 20,
+    "batchsize": 3,
+    "lossfunc": "dice_loss"
   },
    {
     "name": "ultrasound-probe",
@@ -59,6 +78,9 @@
       255,
       141
     ],
-    "classid": 6
+    "classid": 6,
+    "epochs": 10,
+    "batchsize": 3,
+    "lossfunc": "jaccard_index"
   }
 ]
